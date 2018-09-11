@@ -5,7 +5,7 @@ const app = express();
 const port = 5000;
 
 app.get('/snakes', (req, res) => {
-    console.log('ssssssss');
+    res.send([]);
 })
 
 app.listen(port, () => {
