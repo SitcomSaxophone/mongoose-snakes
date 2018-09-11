@@ -4,7 +4,7 @@ const snakeRouter = require('./routes/snake.router');
 
 const port = 5000;
 
-app.use('/', snakeRouter);
+app.use('/snakes', snakeRouter);
 
 app.listen(port, () => {
     console.log('listening on port: ', port);
